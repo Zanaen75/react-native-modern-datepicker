@@ -164,6 +164,7 @@ DatePicker.propTypes = {
   mode: PropTypes.oneOf(modeArray),
   minuteInterval: PropTypes.oneOf(minuteIntervalArray),
   style: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
+  disableYearTyping: PropTypes.bool,
 };
 
 export {DatePicker, CalendarContext, useCalendar};
